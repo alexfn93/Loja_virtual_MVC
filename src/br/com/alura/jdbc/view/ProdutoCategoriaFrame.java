@@ -89,7 +89,7 @@ public class ProdutoCategoriaFrame extends JFrame {
 
 		modelo.addColumn("Identificador do Produto");
 		modelo.addColumn("Nome do Produto");
-		modelo.addColumn("Descri��o do Produto");
+		modelo.addColumn("Descrição do Produto");
 
 		preencherTabela();
 
@@ -166,7 +166,7 @@ public class ProdutoCategoriaFrame extends JFrame {
 			Integer id = (Integer) objetoDaLinha;
 			this.produtoController.deletar(id);
 			modelo.removeRow(tabela.getSelectedRow());
-			JOptionPane.showMessageDialog(this, "Item exclu�do com sucesso!");
+			JOptionPane.showMessageDialog(this, "Item excluído com sucesso!");
 		} else {
 			JOptionPane.showMessageDialog(this, "Por favor, selecionar o ID");
 		}
