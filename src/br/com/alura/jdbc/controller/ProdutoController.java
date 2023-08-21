@@ -17,19 +17,21 @@ public class ProdutoController {
 	}
 
 	public void deletar(Integer id) {
+		this.produtoDAO.deletar(id);
 		System.out.println("Deletando produto");
 	}
 
 	public void salvar(Produto produto) {
+		this.produtoDAO.salvar(produto);
 		System.out.println("Salvando produto");
 	}
 
-	public List<Produto> listar()
-	{
+	public List<Produto> listar() {
 		return this.produtoDAO.listar();
 	}
 
 	public void alterar(String nome, String descricao, Integer id) {
+		this.produtoDAO.alterar(nome, descricao, id);
 		System.out.println("Alterando produto");
 	}
 }
