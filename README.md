@@ -3,6 +3,8 @@
 
 Esta documentação fornece uma visão geral e instruções para a implementação de um CRUD em Java usando o padrão MVC (Model-View-Controller).
 
+🎥 Link do vídeo com demosntração: https://youtu.be/mEXS55yWk-Q
+
 # 👨‍💻 Tecnologias utilizadas
 
 1. Java 8+
